@@ -1,4 +1,3 @@
-#Remove pass and complete the code
 def check_character(word, index):
    char =  word[index]
    if str(char).isalpha():
