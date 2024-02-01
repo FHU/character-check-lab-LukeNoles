@@ -1,11 +1,11 @@
 def check_character(word, index):
    char =  word[index]
-   if str(char).isalpha():
+   if char.isalpha():
        return "letter"
-   if str(char).isdigit():
+   if char.isdigit():
        return "digit"
-   if str(char).isspace():
-       return "whitespace"
+   if char.isspace():
+       return "white space"
    else:
        return "unknown"
 if __name__ == '__main__': 
